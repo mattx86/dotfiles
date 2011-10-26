@@ -1,0 +1,7 @@
+" mode settings
+set focuscontent
+
+" search
+set hlsearch
+set ignorecase
+inoremap <C-k> <Esc><C-k>
