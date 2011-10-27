@@ -1,7 +1,19 @@
-" mode settings
-set focuscontent
+" mode options
+set focuscontent=false
 
-" search
-set hlsearch
-set ignorecase
+" search options
+set hlsearch=true
+set ignorecase=true
+
+" keymap fixes
 inoremap <C-k> <Esc><C-k>
+inoremap <C-a> <Ins><C-a><Ins>
+inoremap <C-t> <Esc><C-t>
+inoremap <C-w> <Esc><C-w>
+
+" faster scrolling
+set scroll=3
+nnoremap h 3h
+nnoremap j 3j
+nnoremap k 3k
+nnoremap l 3l
