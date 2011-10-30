@@ -10,6 +10,7 @@ inoremap <C-k> <Esc><C-k>
 inoremap <C-a> <Ins><C-a><Ins>
 inoremap <C-t> <Esc><C-t>
 inoremap <C-w> <Esc><C-w>
+nnoremap <C-a> <Ins><C-a><Ins>
 
 " faster scrolling
 set scroll=3
